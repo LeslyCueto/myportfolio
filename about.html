@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Lesly Sharom | Web Developer</title>
+    <link rel="shortcut icon" href="img/icons8-girl-64.png">
+    <link rel="stylesheet" href="css/work.css"> 
+    <link rel="stylesheet" href="css/about.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <a class="header__name" href="index.html">Lesly Sharom</a>
+        <div class="header__btns">
+            <button class="contact__btns--btns">
+                <a class="contact__btns--btns-a" href="https://www.linkedin.com/in/lesly-cueto/" target="_blank">Linkedin</a>
+            </button>
+            <button class="contact__btns--btns" id="resumeBtn">
+                <a class="contact__btns--btns-a" href="pdf/ES CURRICULUM - LESLY SHAROM.pdf" download="ES CURRICULUM - LESLY SHAROM.pdf">Resume</a>
+            </button>
+        </div>
+    </header>
+    <div class="aboutpage__ctn"  id="resumeSection">
+        <section class="mydescription">
+            <div class="mydescription__left">
+                <h2 class="mydescription__left--title">Harmonizing Pixels and People: Creating Memorable Digital Experiences.</h2>
+                <p class="mydescription__left--text">Hey there, I'm Lesly, a Frontend Web Developer and UX/UI Designer. I love creating websites and designs that make a real difference.</p>
+                <br>
+                <p class="mydescription__left--text">As a developer and designer, I aim to make things look good and easy to use. Each project I take on excites me because it's a chance to learn, be creative, and solve problems. I'm always looking for ways to make things better and to improve my skills.</p>
+                <br>
+                <p class="mydescription__left--text-bold">As an engineering student majoring in systems engineering at UTP University in Peru, currently in the 8th cycle, I'm expanding my tech skills with additional courses. With experience in web development, I'm now seeking full-time opportunities or freelance projects that are both creatively stimulating and engaging.</p>
+            </div>
+            <div class="mydescription__rigth">
+                <ul class="cloud" role="navigation" aria-label="Webdev word cloud">
+                    <li><a href="#" data-weight="4">Bootstrap 5</a></li>
+                    <li><a href="#" data-weight="1">Wordpress</a></li>
+                    <li><a href="#" data-weight="5">Sass</a></li>
+                    <li><a href="#" data-weight="8">HTML5</a></li>
+                    <li><a href="#" data-weight="6">FlexBox</a></li>
+                    <li><a href="#" data-weight="4">PHP</a></li>
+                    <li><a href="#" data-weight="5">Java</a></li>
+                    <li><a href="#" data-weight="5">GitHub</a></li>
+                    <li><a href="#" data-weight="6">Grid</a></li>
+                    <li><a href="#" data-weight="2">SQL</a></li>
+                    <li><a href="#" data-weight="9">JavaScript</a></li>
+                    <li><a href="#" data-weight="3">Animation</a></li>
+                    <li><a href="#" data-weight="7">React.js</a></li>
+                    <li><a href="#" data-weight="8">CSS3</a></li>
+                    <li><a href="#" data-weight="3">Python</a></li>
+                    <li><a href="#" data-weight="1">Django</a></li>
+                  </ul>
+            </div>
+        </section>
+    </div>
+    <section class="contact">
+        <h2 class="contact__h2">Let's Get in Touch 🌻</h2>
+        <p class="contact__invitation">Hey there, I am available for full-time, part-time
+            or freelance projects, whether they are remotely or on-site
+            in Peru, I'd love to hear from you.
+        </p>
+        <div class="contact__btns">
+            <button class="contact__btns--btns">
+                <a class="contact__btns--btns-a" href="mailto:lesly.sharom@gmail.com">lesly.sharom@gmail.com</a>
+            </button>
+            <button class="contact__btns--btns">
+                <a class="contact__btns--btns-a" href="https://www.linkedin.com/in/lesly-cueto/" target="_blank">Linkedin</a>
+            </button>
+            <button class="contact__btns--btns">
+                <a class="contact__btns--btns-a" href="pdf/ES CURRICULUM - LESLY SHAROM.pdf" download="ES CURRICULUM - LESLY SHAROM.pdf">Resume</a>
+            </button>
+            <button class="contact__btns--btns-about">
+                <a class="contact__btns--btns-a" href="index.html">Projects</a>
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <nav class="footer__ctn">
+            <a class="footer__ctn--a" href="index.html">Work</a>
+            <a class="footer__ctn--a" href="about.html">About</a>
+            <a class="footer__ctn--a-archives" href="">Archives</a>
+        </nav>
+        <h3 class="footer__h3">Unicorn 🦄 Developer 👩‍💻</h3>
+        <p class="footer__copyright">Copyright ©️ 2024 Lesly Sharom. All Rights Reserved</p>
+    </footer>
+    <script src="js/hideHeaderOnScroll.js" type="module"> </script>
+    <script type="module">
+        // Importar la función
+        import { hideHeaderAndButtonsOnScroll } from "js/hideHeaderOnScroll.js";
+
+        // Llamar a la función al cargar la página
+        window.addEventListener("load", hideHeaderAndButtonsOnScroll);
+    </script>
+</body>
+</html>
