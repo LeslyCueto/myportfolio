@@ -83,13 +83,17 @@
     padding: 1.2em;
     margin: 1.5em;
 }
-.aboutme__ctn1--profile{
-    width: 10em;
+.aboutme__ctn1--profile {
+    width: 15em;
+    height: 15em;
     border-radius: 50%;
     border: solid var(--profile-border);
     border-width: 1px;
-    background-color:var(--profile-background-mobile) ;
+    background-color: var(--profile-background-mobile);
     transition: all 2s ease-out;
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+    clip-path: circle(50% at 50%); /* Recorta la imagen en círculo y centra hacia arriba */
+    overflow: hidden; /* Oculta el contenido fuera del círculo */
 }
 .aboutme__ctn2{
     width: 100%;
@@ -288,9 +292,6 @@
 }
 
 /***** Hovers styles *****/ 
-.aboutme__ctn1--profile:hover{
-    background-color: var(--profile-hover);
-}
 .aboutme__ctn2--span:hover{
     color: var(--opentowork-btn);
 }
@@ -396,7 +397,6 @@
         font-size: 2em;
     }
     .aboutme__ctn1--profile{
-        width: 14em;
         margin-top: 2.5em;
     }
     .aboutme__ctn2--openforwork{
